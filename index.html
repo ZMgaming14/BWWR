@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Discord Bewerbungs-Warteschlange</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-color: #f0f0f0;
+    }
+
+    .container {
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    .queue {
+      margin-top: 20px;
+      list-style: none;
+      padding: 0;
+    }
+
+    .queue li {
+      background-color: #eee;
+      padding: 10px;
+      margin-bottom: 5px;
+      border-radius: 3px;
+    }
+
+    .queue li.current {
+      background-color: #e0e0e0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Discord Bewerbungs-Warteschlange</h1>
+
+    <p>Du bist in der Warteschlange für ein Gespräch. Bitte hab etwas Geduld, wir werden uns so schnell wie möglich bei dir melden.</p>
+
+    <ul class="queue">
+      <li class="current">Bewerber 1</li>
+      <li>Bewerber 2</li>
+      <li>Bewerber 3</li>
+      </ul>
+
+    <p>Dein Gesprächslink: <a href="#">[https://discord.gg/VYqVDBaJcE]</a></p>
+  </div>
+</body>
+</html>
